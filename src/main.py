@@ -38,11 +38,11 @@ def download(id, url, save_path):
 if __name__ == '__main__':
     
     config = {
-        "apiKey": "",
-        "authDomain": "",
-        "databaseURL": "",
-        "storageBucket": "",
-        "serviceAccount": "file.json"
+        "apiKey": "AIzaSyCJp985flakYr1ijVMPDCvEU2aVVMRq_lE",
+        "authDomain": "lumos-tv.firebaseapp.com",
+        "databaseURL": "https://lumos-tv.firebaseio.com",
+        "storageBucket": "lumos-tv.appspot.com",
+        "serviceAccount": "lumos.json"
     }
-
+    
     main(config)
